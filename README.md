@@ -21,6 +21,7 @@ Streamlit Interface: Clean and interactive web app.
 Fast Performance: Instant recommendations.
 
 How to Run the App
+
 Navigate to your project folder:
 
 In command prompt
