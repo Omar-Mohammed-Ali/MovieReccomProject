@@ -1,16 +1,30 @@
-Movie Recommendation System
+MOVIE RECCOMENDATION SYSTEM
 
-This project is a simple Movie Recommendation System that suggests similar movies based on genres. 
-It is built using Python with the help of Pandas, Scikit-learn, and Gradio for a user-friendly web interface. 
-The system uses a content-based filtering approach by calculating the similarity between movies using their genres.
-Users can select a movie from the dropdown, and the system will recommend five similar movies. 
-The project is easy to run and provides quick movie suggestions through an interactive web app.
+Developed a Movie Recommendation System using Python, Pandas, Scikit-learn, and Streamlit.
 
-This project is a content-based movie recommender system that suggests similar movies based on their genres. 
-It is built using Python, Pandas, Scikit-learn, and Gradio for a simple and interactive web interface.
+Built on a content-based filtering approach using movie titles and genres.
 
-Features
-Recommends 5 similar movies based on the selected movie's genre.
+Utilized TF-IDF vectorization to numerically represent movie features.
 
-Simple web-based user interface built with Gradio.
-Fast, efficient, and easy to use.
+Used Nearest Neighbors algorithm with cosine similarity to recommend similar movies.
+
+Provided an interactive Streamlit web app with a clean user interface.
+
+Allowed users to select movies from a dropdown menu and receive 5 similar movie recommendations.
+
+Dataset used: movies.csv containing movie titles and genres.
+
+ Key Features:
+Dropdown Search: Quick and searchable movie selection.
+Content-Based Recommendations: Suggestions based on movie similarity.
+Streamlit Interface: Clean and interactive web app.
+Fast Performance: Instant recommendations.
+
+How to Run the App
+Navigate to your project folder:
+
+In command prompt
+cd C:\Users\omarm\Downloads\MovieProj
+Run the app:
+streamlit run MoviesRecSystem.py
+The app will automatically open in your browser at localhost.
