@@ -28,6 +28,10 @@ cd C:\Users\omarm\Downloads\MovieProj
 Run the app:
 streamlit run MoviesRecSystem.py
 The app will automatically open in your browser at localhost.
+Below are screenshots attached
 
 ![screenshot-1751021943687](https://github.com/user-attachments/assets/f3b91aa5-a02f-40ac-8a06-ccfcd1232166)
+
+![screenshot-1751022244267](https://github.com/user-attachments/assets/97a52ee7-54ee-4120-afa8-17a2dbb0f272)
+
 
